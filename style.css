@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 150%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: #222;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 0.5%;
+  cursor: default;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: smaller;
+  margin-bottom: 0.5%;
+}
+
+header {
+  background-color: #ff0000;
+  float: inline-start;
+  width: 100%;
+}
+
+a:link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid rgb(109, 109, 109);
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+.footer {
+  background-color: #313030;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 145px;
+  color: #ffffff;
+}
+
+.footer__author {
+  font-size: 18px;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.login {
+  color: rgb(255, 255, 255);
+  margin-left: 85%;
+  font-size: smaller;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img {
+  border: 5px solid black;
+  border-style: ridge;
+  border-radius: 2%;
+  border-color: rgb(236, 0, 0);
+}
+.img-2 {
+  border: 5px solid black;
+  border-style: ridge;
+  border-radius: 2%;
+  border-color: rgb(236, 0, 0);
+}
+
+.row #btn {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.row #btn:hover {
+  background-color: #3d3c3c;
+}
+
+.row #btn:active {
+  background-color: #ada9a9;
+}
+
+.row #btn-2 {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.row #btn-2:hover {
+  background-color: #3d3c3c;
+}
+
+.row #btn-2:active {
+  background-color: #ada9a9;
+}
+
+.row #btn-3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 25px;
+  padding: 6px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.row #btn-3:hover {
+  background-color: #3d3c3c;
+}
+
+.row #btn-3:active {
+  background-color: #ada9a9;
+}
+
+#display {
+  position: absolute;
+  top: 70%;
+  left: 19%;
+  width: 12%;
+  height: 5%;
+  background-color: rgb(112, 112, 112);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: smaller;
+  color: #ffffff;
+  cursor: default;
+}
+
+#display-2 {
+  position: absolute;
+  top: 70%;
+  left: 69%;
+  width: 12%;
+  height: 5%;
+  background-color: rgb(112, 112, 112);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: smaller;
+  color: #ffffff;
+  cursor: default;
+}
+
+.fa-x-twitter {
+  color: rgb(255, 255, 255);
+  /* font-size: 35px; */
+  margin-left: 20px;
+  background-color: #000000;
+  box-sizing: border-box;
+  border-radius: 20%;
+}
+
+.fa-youtube {
+  color: rgb(248, 0, 0);
+  /* font-size: 35px; */
+  margin-left: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20%;
+}
+
+.fa-x-twitter:hover {
+  background-color: rgb(90, 89, 89);
+}
+
+.fa-youtube:hover {
+  background-color: rgb(196, 189, 189);
+}
